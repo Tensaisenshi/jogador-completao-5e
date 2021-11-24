@@ -1,8 +1,12 @@
 {
   "name": "jogador-completao-5e",
-  "title": "Jogador Completão 5e",
+  "title": "0 Jogador Completão 5e",
   "description": "Minha tentativa de implementar um compêndio completão do livro do jogaror de D&D5e. Essa empreitada foi/está sendo feita por mim usando por base meu livro do jogador em portugês (tradução oficial Galápagos Jogos)",
   "author": "LeoLonardo",
+  "url": "https://github.com/Tensaisenshi/jogador-completao-5e",
+  "readme": "https://github.com/Tensaisenshi/jogador-completao-5e/readme.md",
+  "manifest": "https://github.com/Tensaisenshi/jogador-completao-5e/releases/download/experimental/module.json",
+  "download": "https://github.com/Tensaisenshi/jogador-completao-5e/releases/download/experimental/module.zip",
   "version": "0.0.1",
   "minimumCoreVersion": "0.8.0"
 }
