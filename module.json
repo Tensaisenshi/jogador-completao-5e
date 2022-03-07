@@ -5,21 +5,21 @@
   "author": "LeoLonardo",
   "url": "https://github.com/Tensaisenshi/jogador-completao-5e",
   "readme": "https://github.com/Tensaisenshi/jogador-completao-5e/readme.md",
-  "manifest": "https://github.com/Tensaisenshi/jogador-completao-5e/releases/latest/download/module.json",
-  "download": "https://github.com/Tensaisenshi/jogador-completao-5e/releases/latest/download/module.zip",
-  "version": "0.0.1",
-  "minimumCoreVersion": "0.9.0",
+  "manifest": "https://github.com/Tensaisenshi/jogador-completao-5e/latest/releases/download/module.json",
+  "download": "https://github.com/Tensaisenshi/jogador-completao-5e/latest/releases/download/module.zip",
+  "version": "0.0.3",
+  "minimumCoreVersion": "9.0",
   "packs": [
   {
-	  "name": "armas",
-	  "label": "Armas",
-	  "path": "packs/armas-jc5e.db",
+	  "name": "itens",
+	  "label": "Itens",
+	  "path": "packs/itens-jc5e.db",
 	  "entity": "Item"
   },
   {
-	  "name": "armaduras",
-	  "label": "Armaduras",
-	  "path": "packs/armaduras-jc5e.db",
+	  "name": "itens-magicos",
+	  "label": "Itens Mágicos",
+	  "path": "packs/itens-magicos-jc5e.db",
 	  "entity": "Item"
   }
   ],
