@@ -1,35 +1,51 @@
 {
   "name": "jogador-completao-5e",
   "title": "Jogador Completão 5e",
-  "description": "Minha tentativa de implementar um compêndio completão do livro do jogaror de D&D5e. Essa empreitada foi/está sendo feita por mim usando por base meu livro do jogador em portugês (tradução oficial Galápagos Jogos)",
+  "description": "Minha tentativa de implementar um compêndio completão do livro do jogaror de D&amp;D5e. Essa empreitada foi/está sendo feita por mim usando por base meu livro do jogador em portugês (tradução oficial Galápagos Jogos).",
   "author": "LeoLonardo",
+  "authors": [],
   "url": "https://github.com/Tensaisenshi/jogador-completao-5e",
   "readme": "https://github.com/Tensaisenshi/jogador-completao-5e/readme.md",
-  "manifest": "https://github.com/Tensaisenshi/jogador-completao-5e/latest/releases/download/module.json",
-  "download": "https://github.com/Tensaisenshi/jogador-completao-5e/latest/releases/download/module.zip",
-  "version": "0.0.3",
-  "minimumCoreVersion": "9.0",
+  "flags": {},
+  "version": "0.0.4",
+  "minimumCoreVersion": "0.9.0",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
   "packs": [
-  {
-	  "name": "itens",
-	  "label": "Itens",
-	  "path": "packs/itens-jc5e.db",
-	  "entity": "Item"
-  },
-  {
-	  "name": "itens-magicos",
-	  "label": "Itens Mágicos",
-	  "path": "packs/itens-magicos-jc5e.db",
-	  "entity": "Item"
-  }
+    {
+      "name": "itens",
+      "label": "Itens",
+      "path": "packs/itens-jc5e.db",
+      "entity": "Item",
+      "type": "Item",
+      "private": false
+    },
+    {
+      "name": "itens-magicos",
+      "label": "Itens Mágicos",
+      "path": "packs/itens-magicos-jc5e.db",
+      "entity": "Item",
+      "type": "Item",
+      "private": false
+    }
   ],
+  "system": [],
   "dependencies": [
-  {
-      "name": "compendium-folders"
-  },
-  {
-	  "name": "dnd5e",
-	  "type": "system"
-  }
-  ]
+    {
+      "name": "compendium-folders",
+      "type": "module"
+    },
+    {
+      "name": "dnd5e",
+      "type": "system"
+    }
+  ],
+  "socket": false,
+  "manifest": "https://github.com/Tensaisenshi/jogador-completao-5e/releases/latest/download/module.json",
+  "download": "https://github.com/Tensaisenshi/jogador-completao-5e/releases/latest/download/module.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
 }
